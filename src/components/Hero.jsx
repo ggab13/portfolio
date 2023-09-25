@@ -7,7 +7,7 @@ import { cvgabor } from '../assets';
 const Hero = () => {
     const downloadCV = () => {
         window.location.assign(
-            'https://drive.google.com/u/0/uc?id=15n76jeb04E_8BeMjkzsuW624WmuIgHvc&export=download'
+            'https://drive.google.com/u/0/uc?id=1MUu1redcPvcyeapGO35N2jFL9hLHQPLA&export=download'
         );
     };
 

@@ -43,7 +43,7 @@ const Hero = () => {
 
                 <button
                     onClick={downloadCV}
-                    className="bg-matrix font-bold rounded-xl   hover:brightness-125 absolute bottom-[150px] right-[100px] text-[24px] px-6 py-2"
+                    className="bg-matrix font-bold rounded-xl   hover:brightness-125 absolute sm: bottom-[50px] lg:bottom-[150px] right-[100px] sm:text-[12px] md:text-[24px] px-6 py-1"
                 >
                     {' '}
                     <span className="animate-pulse w-6 h-6  text-[36px] p-1 mr-2 text-black font-bold">

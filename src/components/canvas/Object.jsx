@@ -24,7 +24,7 @@ const Model = ({ isMobile }) => {
 
             <primitive
                 object={geometry.scene}
-                scale={isMobile ? 0.27 : 0.25}
+                scale={isMobile ? 0.27 : 0.2}
                 color="#009572"
                 position={[1, 10, 10]}
                 rotation={[10, 1, 0]}
@@ -60,14 +60,9 @@ const ModelCanvas = () => {
         <Canvas
             //frameloop="demand" <-- ha ez bevan akkor csak klikkel muxik
 
-            camera={{ position: [1, 10, 75], fov: 40 }}
+            camera={{ position: [1, 10, 70], fov: 40 }}
         >
             <Suspense fallback={<CanvasLoader />}>
-                <OrbitControls
-                    enableZoom={false}
-                    maxPolarAngle={Math.PI / 2}
-                    minPolarAngle={Math.PI / 2}
-                />
                 <Model isMobile={isMobile} />
             </Suspense>
             <Preload all />

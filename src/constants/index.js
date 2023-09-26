@@ -236,7 +236,7 @@ const projects = [
         source_code_link: 'https://github.com/ggab13/weather-api',
     },
     {
-        name: 'Trip Guide',
+        name: 'Tic-Tac-Toe',
         description:
             'Tic-Tac-Toe was made to practice JavaScript, SCSS and HTML',
         tags: [

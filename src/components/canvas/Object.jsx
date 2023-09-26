@@ -57,11 +57,7 @@ const ModelCanvas = () => {
         };
     }, []);
     return (
-        <Canvas
-            //frameloop="demand" <-- ha ez bevan akkor csak klikkel muxik
-
-            camera={{ position: [1, 10, 70], fov: 40 }}
-        >
+        <Canvas camera={{ position: [1, 10, 70], fov: 40 }}>
             <Suspense fallback={<CanvasLoader />}>
                 <Model isMobile={isMobile} />
             </Suspense>

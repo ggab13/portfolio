@@ -24,9 +24,9 @@ const ProjectCard = ({
                     scale: 1,
                     speed: 450,
                 }}
-                className="bg-matrix p-5 rounded-2xl sm: h-[450px] sm:w-[300px] "
+                className="bg-matrix p-5 rounded-2xl sm: h-[500px] sm:w-[310px] "
             >
-                <div className="relative w-full h-[230px]">
+                <div className="relative  w-full h-[230px]">
                     <img
                         src={image}
                         alt={name}
@@ -76,7 +76,7 @@ const Works = () => {
                 <h2 className={styles.sectionHeadText}>Projects</h2>
             </motion.div>
 
-            <div className="w-full flex flex-wrap">
+            <div className="w-full flex flex-wrap ">
                 <motion.p
                     variants={fadeIn('', '', 0.1, 1)}
                     className="mt-5 text-secondary text[17px] max-w-3xl leading-[30px]"
@@ -86,7 +86,7 @@ const Works = () => {
                     and respositories.
                 </motion.p>
 
-                <div className="mt-10 flex flex-wrap gap-7 ">
+                <div className="mt-10 flex flex-wrap items-center justify-center gap-7 ">
                     {projects.map((project, index) => (
                         <ProjectCard
                             key={`project-${index}`}

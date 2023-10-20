@@ -7,7 +7,7 @@ import { cvgabor } from '../assets';
 const Hero = () => {
     const downloadCV = () => {
         window.location.assign(
-            'https://drive.google.com/u/0/uc?id=1PkXXIuaTTqwBODJwWavdADQWKTe_61NS&export=download'
+            'https://drive.google.com/file/d/1PkXXIuaTTqwBODJwWavdADQWKTe_61NS/view?usp=share_link'
         );
     };
 
@@ -16,15 +16,15 @@ const Hero = () => {
             <div
                 className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
             >
-                <div className="flex flex-col justify-center items-center mt-1">
-                    <div className="w-6 h-6 mb-3 pt-3 square-full bg-[#00957a]" />
-                    <div className="w-5 h-5 mb-3 pt-3 square-full bg-[#009572]" />
-                    <div className="w-4 h-4 mb-3 pt-3 square-full bg-[#009572]" />
-                    <div className="w-3 h-3 mb-3 pt-3 square-full bg-[#009572]" />
-                    <div className="w-2 h-2 mb-3 pt-3 square-full bg-[#009572]" />
-                    <div className="w-1 h-1 mb-3 pt-3 square-full bg-[#009572]" />
+                <div className="flex flex-col justify-center items-center mt-1 z-20">
+                    <div className="w-6 h-6 mb-3 pt-3 square-full bg-[#009579]" />
+                    <div className="w-5 h-5 mb-3 pt-3 square-full bg-[#009579]" />
+                    <div className="w-4 h-4 mb-3 pt-3 square-full bg-[#009579]" />
+                    <div className="w-3 h-3 mb-3 pt-3 square-full bg-[#009579]" />
+                    <div className="w-2 h-2 mb-3 pt-3 square-full bg-[#009579]" />
+                    <div className="w-1 h-1 mb-3 pt-3 square-full bg-[#009579]" />
                 </div>
-                <div>
+                <div className="z-20">
                     <h1 className={`${styles.heroHeadText} z-20`}>
                         Hi, I&apos;m{' '}
                         <span className="text-[#009579]"> Gabor</span>
@@ -36,14 +36,15 @@ const Hero = () => {
                     </p>
                 </div>
                 <div className="">{/*    <ModelCanvas /> */}</div>
-                <img
-                    className="absolute hidden brightness-75  lg:block w-[50%] bottom-0 left-[-15%]"
-                    src={cvgabor}
-                />
-
+                <div className="hidden  tall:block absolute w-[30%]  bottom-0   lg:w-[55%]  z-10">
+                    <img
+                        className=" relative hidden brightness-75  lg:block max-w-auto h-auto bottom-0 right-[40%]"
+                        src={cvgabor}
+                    />
+                </div>
                 <button
                     onClick={downloadCV}
-                    className="bg-matrix font-bold rounded-xl   hover:brightness-125 absolute sm: bottom-[50px] lg:bottom-[150px] right-[100px] sm:text-[12px] md:text-[24px] px-6 py-1"
+                    className="bg-matrix font-bold rounded-xl   hover:brightness-125 absolute sm: bottom-[50px] xl:bottom-[100px] right-[100px] sm:text-[12px] md:text-[24px] px-6 py-1"
                 >
                     {' '}
                     <span className="animate-pulse w-6 h-6  text-[36px] p-1 mr-2 text-black font-bold">

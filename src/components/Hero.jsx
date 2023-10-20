@@ -36,7 +36,7 @@ const Hero = () => {
                     </p>
                 </div>
                 <div className="">{/*    <ModelCanvas /> */}</div>
-                <div className="hidden  tall:block absolute w-[30%]  bottom-0   lg:w-[55%]  z-10">
+                <div className="hidden  tall:block absolute w-[30%]  bottom-0   lg:w-[50%]  z-10">
                     <img
                         className=" relative hidden brightness-75  lg:block max-w-auto h-auto bottom-0 right-[40%]"
                         src={cvgabor}

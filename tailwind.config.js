@@ -19,7 +19,7 @@ export default {
             },
             screens: {
                 xs: '450px',
-                tall: { raw: '(min-height: 801px)' },
+                tall: { raw: '(min-height: 900px)' },
             },
             backgroundImage: {
                 'hero-pattern': "url('/src/assets/background.jpg')",

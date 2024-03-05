@@ -19,6 +19,7 @@ import {
   producer,
   chef,
   catcafe,
+  funtazia,
 } from '../assets';
 
 export const navLinks = [
@@ -145,7 +146,7 @@ const projects = [
   {
     name: 'Funtazia',
     description:
-      'Funtasia was made to practice Astro framework and Sanity CMS.',
+      'Funtazia is a personal travel blog made with Astro framework and Sanity CMS.',
     tags: [
       {
         name: 'astro',
@@ -207,7 +208,7 @@ const projects = [
   {
     name: 'Krusty Krab',
     description:
-      'Krusty Krab was made to practice ES6 Modules, JavaScript, SCSS and HTML..',
+      'Krusty Krab was made to practice ES6 Modules, JavaScript, SCSS and HTML.',
     tags: [
       {
         name: 'es6 modules',

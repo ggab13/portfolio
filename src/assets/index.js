@@ -17,6 +17,7 @@ import restaurant from './company/restaurant.png';
 import tictactoe from './company/tictactoe.png';
 import weather from './company/weather.png';
 import library from './company/library.png';
+import funtazia from './company/funtazia.png';
 
 import eagle from './company/eagle.png';
 import hostel from './company/hostel.png';
@@ -30,29 +31,30 @@ import producer from './producer.png';
 import cvgabor from './cvgabor.png';
 
 export {
-    chef,
-    cvgabor,
-    musify,
-    battleship,
-    restaurant,
-    tictactoe,
-    weather,
-    library,
-    developer,
-    catcafe,
-    producer,
-    logo,
-    eagle,
-    foodora,
-    hostel,
-    github,
-    menu,
-    close,
-    css,
-    figma,
-    git,
-    html,
-    javascript,
-    reactjs,
-    tailwind,
+  chef,
+  cvgabor,
+  funtazia,
+  musify,
+  battleship,
+  restaurant,
+  tictactoe,
+  weather,
+  library,
+  developer,
+  catcafe,
+  producer,
+  logo,
+  eagle,
+  foodora,
+  hostel,
+  github,
+  menu,
+  close,
+  css,
+  figma,
+  git,
+  html,
+  javascript,
+  reactjs,
+  tailwind,
 };

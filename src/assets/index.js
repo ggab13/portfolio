@@ -23,6 +23,7 @@ import eagle from './company/eagle.png';
 import hostel from './company/hostel.png';
 import foodora from './company/foodora.png';
 import catcafe from './company/catcafe.png';
+import p92 from './company/p92.png';
 
 import chef from './chef.png';
 import developer from './developer.png';
@@ -46,6 +47,7 @@ export {
   logo,
   eagle,
   foodora,
+  p92,
   hostel,
   github,
   menu,

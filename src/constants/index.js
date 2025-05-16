@@ -20,6 +20,7 @@ import {
   chef,
   catcafe,
   funtazia,
+  p92,
 } from '../assets';
 
 export const navLinks = [
@@ -138,6 +139,20 @@ const experiences = [
       'Collaborating with the content team to develop content-planning strategies.',
       'Sorting and uploading written content in accordance with the deadlines.',
       'Daily communication with Partners',
+    ],
+  },
+  {
+    title: 'IT Support Assistant',
+    company_name: 'P92 Digital',
+    icon: p92,
+    iconBg: '#000000',
+    date: 'May 2024 - Current',
+    points: [
+      'Getting familiar with the domain and cooperating with partners.',
+      'Troubleshooting issues as they arise.',
+      'Discussing problems with developers when the issue could not be solved independently.',
+      'Assisting with manual testing tasks.',
+      'Communicating with clients, software developers on daily basis.',
     ],
   },
 ];

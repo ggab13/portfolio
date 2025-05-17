@@ -12,11 +12,11 @@ import reactjs from './tech/reactjs.png';
 import tailwind from './tech/tailwind.png';
 
 import musifyy from './company/musifyy.png';
-import battleship from './company/battleship.png';
-import restaurant from './company/restaurant.png';
-import tictactoe from './company/tictactoe.png';
-import weather from './company/weather.png';
-import library from './company/library.png';
+import battleship from './company/battleshipp.png';
+import restaurant from './company/restaurantt.png';
+import tictactoe from './company/tictactoee.png';
+import weather from './company/weatherr.png';
+import library from './company/libraryy.png';
 import funtazia from './company/funtazia.png';
 
 import eagle from './company/eagle.png';

@@ -11,7 +11,7 @@ import javascript from './tech/javascript.png';
 import reactjs from './tech/reactjs.png';
 import tailwind from './tech/tailwind.png';
 
-import musify from './company/musify.png';
+import musifyy from './company/musifyy.png';
 import battleship from './company/battleship.png';
 import restaurant from './company/restaurant.png';
 import tictactoe from './company/tictactoe.png';
@@ -35,7 +35,7 @@ export {
   chef,
   cvgabor,
   funtazia,
-  musify,
+  musifyy,
   battleship,
   restaurant,
   tictactoe,

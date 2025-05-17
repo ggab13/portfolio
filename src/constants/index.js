@@ -8,7 +8,7 @@ import {
   figma,
   battleship,
   restaurant,
-  musify,
+  musifyy,
   tictactoe,
   weather,
   library,
@@ -192,7 +192,7 @@ const projects = [
         color: '',
       },
     ],
-    image: musify,
+    image: musifyy,
     source_code_link: 'https://github.com/ggab13/shopping-cart',
   },
   {
